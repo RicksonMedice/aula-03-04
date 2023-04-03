@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color:rgb(247, 126, 126);
+    font-size: 100px;
+    font-weight: 400px;
+}
+
+.sessao1{
+    display: flex;
+    justify-content: center;
+}
+
+.sessao2{
+    display: flex;
+    justify-content: center;
+}
+
+.sessao3{
+    display: flex;
+    align-items: center;
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+.imagem-principal{
+    
+    height: 700px;
+    width: 700px;
+}
+
+.botao{
+    font: bold 12px/24px arial, helvetica, sans-aerif;	
+    padding:0px;
+    text-decoration: none;
+    text-align:center;	
+    color:#470202;
+    background: #ff0000 url('botao_link.gif')
+     no-repeat center center;	
+    width:120px;  
+    height:24px;	
+    display:block;	
+
+}
+
+.botao :hover {
+    background: #01d9ff url('botao_hover.gif') no-repeat 
+    center center;
+    color:#999;
+}
+
+
+
+
+
